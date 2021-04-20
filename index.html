@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="Casino.css">
+	<title>Casino</title>
+</head>
+<body>
+
+<nav style="background-image: url(img/casino.png);">
+
+ 	<div class="container">
+ 		<br>
+ 		<ul class="Ingresar">
+ 			<img src="https://image.freepik.com/vector-gratis/fondo-naipes-casino-negro-oro_1017-23672.jpg" class="Logo" alt="">
+        	<a class="Ingresar-link active" aria-current="page" href="login.html" target=_blank>Ingresar</a>
+        </ul>
+ 	 
+  	<br>
+
+	<div class="row">	
+		<div class="col-12 col-md-8" >
+			<div class="row">
+				<table>
+					<tr>
+						<th>
+							<img class="img-thumbnail" src="img/1.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/2.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/3.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/4.png" />
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<img class="img-thumbnail" src="img/5.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/6.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/7.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/8.png" />
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<img class="img-thumbnail" src="img/9.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/10.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/11.png" />
+						</th>
+						<th>
+							<img class="img-thumbnail" src="img/12.png" />
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<img class="img-thumbnail" src="img/13.png" />
+						</th>
+						<th>
+						</th>
+						<th>
+						</th>
+						<th>
+						</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<aside class="col-12 col-md-4">
+
+			<section class="col-12">
+				<h2>Listado de Cartas</h2>
+				<table class="table table-dark table-hover">
+				  <thead>
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">Carta</th>
+				      <th scope="col">Tipo</th>
+				      <th scope="col">Cantidad</th>
+				    </tr>
+				  </thead>
+				  <tbody id="listado">
+				    <tr>
+				      <th scope="row">1</th>
+				      <td>7</td>
+				      <td>negra</td>
+				      <td>2</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">2</th>
+				      <td>As</td>
+				      <td>diamante</td>
+				      <td>1</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">3</th>
+				      <td>3</td>
+				      <td>cualquiera</td>
+				      <td>4</td>
+				    </tr>
+				  </tbody>
+				</table>
+				
+			</section>
+			<section class="col-12">
+				<h2>Registra una Cartas</h2>
+				<form>
+				  <div class="form-group">
+				    <label for="inputNum">Número a Registrar</label>
+				    <input type="text" id="numero" class="form-control" id="inputNum" aria-describedby="emailHelp" placeholder="Por favor ingresar un numero del 1 al 13">
+				  </div>
+				  <div class="form-group">
+				    <label for="inputCarta">Carta</label>
+				    <input type="text" id="carta" class="form-control" id="inputCarta" placeholder="Descripcion de la carta"><br>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputCarta">Tipo</label>
+				    <input type="text" id="carta" class="form-control" id="inputCarta" placeholder="Tipo de la carta "><br>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputCarta">Cantidad</label>
+				    <input type="text" id="carta" class="form-control" id="inputCarta" placeholder="Cantidad de Cartas "><br>
+				  </div>
+				  <button type="button" id="registrar" class="btn btn-primary">Guardar</button>
+				</form>
+			</section>
+		</aside>
+	</div>
+	</div>
+
+	<footer class="footer">
+    	<div class="container">
+    		<p class="text-muted">Programación Aplicaciones Web - 2021</p>
+    	</div>
+    </footer>
+
+</nav>
+
+</body>
+</html>

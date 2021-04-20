@@ -1,0 +1,10 @@
+#content{
+	background-image: url(https://thumbs.dreamstime.com/z/casino-y-ruleta-9253901.jpg);
+	height: 600px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;}
+
+div{
+  width: 700px;
+}

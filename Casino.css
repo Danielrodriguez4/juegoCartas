@@ -1,0 +1,20 @@
+.footer {
+	position: center;
+	text-align: center;
+	color: white;
+	bottom: 0;
+	width: auto;
+	height: 50px;
+	background-color: #f5f5f5;}
+
+	label{
+		color: white;
+		background: black;}
+
+	h2{
+		color: white;
+		background: black;}
+
+	img{
+		width:150px;
+		height:100px;}
